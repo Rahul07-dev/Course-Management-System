@@ -1,0 +1,40 @@
+.container1{
+    min-height: 70vh;   
+    margin: auto auto;
+    margin-top: 4rem;
+    padding: 2rem;
+    min-width: 60vw;
+    max-width: 70vw;
+    padding-right: 0px;
+    border: 2px solid #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.picside{
+    min-width: 10vw;
+    margin-right: 10rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.personalInfo{
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.avatar{
+    height: 10rem;
+    border-radius: 100%;
+    border: 0.4rem solid #915f2c;
+    margin: auto;
+}
